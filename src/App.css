@@ -15,20 +15,34 @@
 
 button{
     font-size: 20px;
-    margin-top: 15px;
+    margin: 15px;
     padding: 20px;
     background: #5162ff;
+    color: #FFFFFF;
     border-radius: 10px;
     cursor: pointer;
+}
+
+button:hover{/*Quando o mouse está posicionado em cima*/
+    background-color: #FFFFFF;
+    color: #5162FF;
+    border: 1 px solid #5162ff;
+    transform: scale(1.1)
 }
 
 img{
     width: 128px;
     border-radius: 64px;
-    margin: 5px;
+    margin: 10px;
 }
 
-.fotos{
+.linha{
     display: flex;
     flex-direction: row;
+}
+
+label, seletc{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 }
